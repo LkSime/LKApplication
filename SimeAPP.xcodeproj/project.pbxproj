@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED95A331D2A393500958847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A321D2A393500958847 /* main.m */; };
+		CED95A361D2A393500958847 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A351D2A393500958847 /* AppDelegate.m */; };
+		CED95A391D2A393500958847 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A381D2A393500958847 /* ViewController.m */; };
+		CED95A3C1D2A393500958847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED95A3A1D2A393500958847 /* Main.storyboard */; };
+		CED95A3E1D2A393500958847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED95A3D1D2A393500958847 /* Assets.xcassets */; };
+		CED95A411D2A393500958847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED95A3F1D2A393500958847 /* LaunchScreen.storyboard */; };
+		CED95A4C1D2A393500958847 /* SimeAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A4B1D2A393500958847 /* SimeAPPTests.m */; };
+		CED95A571D2A393500958847 /* SimeAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A561D2A393500958847 /* SimeAPPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED95A481D2A393500958847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED95A261D2A393500958847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED95A2D1D2A393500958847;
+			remoteInfo = SimeAPP;
+		};
+		CED95A531D2A393500958847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED95A261D2A393500958847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED95A2D1D2A393500958847;
+			remoteInfo = SimeAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED95A2E1D2A393500958847 /* SimeAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimeAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED95A321D2A393500958847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CED95A341D2A393500958847 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CED95A351D2A393500958847 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CED95A371D2A393500958847 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CED95A381D2A393500958847 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CED95A3B1D2A393500958847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED95A3D1D2A393500958847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED95A401D2A393500958847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED95A421D2A393500958847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED95A471D2A393500958847 /* SimeAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimeAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED95A4B1D2A393500958847 /* SimeAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimeAPPTests.m; sourceTree = "<group>"; };
+		CED95A4D1D2A393500958847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED95A521D2A393500958847 /* SimeAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimeAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED95A561D2A393500958847 /* SimeAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimeAPPUITests.m; sourceTree = "<group>"; };
+		CED95A581D2A393500958847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED95A2B1D2A393500958847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED95A441D2A393500958847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED95A4F1D2A393500958847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED95A251D2A393500958847 = {
+			isa = PBXGroup;
+			children = (
+				CED95A301D2A393500958847 /* SimeAPP */,
+				CED95A4A1D2A393500958847 /* SimeAPPTests */,
+				CED95A551D2A393500958847 /* SimeAPPUITests */,
+				CED95A2F1D2A393500958847 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED95A2F1D2A393500958847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED95A2E1D2A393500958847 /* SimeAPP.app */,
+				CED95A471D2A393500958847 /* SimeAPPTests.xctest */,
+				CED95A521D2A393500958847 /* SimeAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED95A301D2A393500958847 /* SimeAPP */ = {
+			isa = PBXGroup;
+			children = (
+				CED95A341D2A393500958847 /* AppDelegate.h */,
+				CED95A351D2A393500958847 /* AppDelegate.m */,
+				CED95A371D2A393500958847 /* ViewController.h */,
+				CED95A381D2A393500958847 /* ViewController.m */,
+				CED95A3A1D2A393500958847 /* Main.storyboard */,
+				CED95A3D1D2A393500958847 /* Assets.xcassets */,
+				CED95A3F1D2A393500958847 /* LaunchScreen.storyboard */,
+				CED95A421D2A393500958847 /* Info.plist */,
+				CED95A311D2A393500958847 /* Supporting Files */,
+			);
+			path = SimeAPP;
+			sourceTree = "<group>";
+		};
+		CED95A311D2A393500958847 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED95A321D2A393500958847 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED95A4A1D2A393500958847 /* SimeAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED95A4B1D2A393500958847 /* SimeAPPTests.m */,
+				CED95A4D1D2A393500958847 /* Info.plist */,
+			);
+			path = SimeAPPTests;
+			sourceTree = "<group>";
+		};
+		CED95A551D2A393500958847 /* SimeAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED95A561D2A393500958847 /* SimeAPPUITests.m */,
+				CED95A581D2A393500958847 /* Info.plist */,
+			);
+			path = SimeAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED95A2D1D2A393500958847 /* SimeAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED95A5B1D2A393500958847 /* Build configuration list for PBXNativeTarget "SimeAPP" */;
+			buildPhases = (
+				CED95A2A1D2A393500958847 /* Sources */,
+				CED95A2B1D2A393500958847 /* Frameworks */,
+				CED95A2C1D2A393500958847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimeAPP;
+			productName = SimeAPP;
+			productReference = CED95A2E1D2A393500958847 /* SimeAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED95A461D2A393500958847 /* SimeAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED95A5E1D2A393500958847 /* Build configuration list for PBXNativeTarget "SimeAPPTests" */;
+			buildPhases = (
+				CED95A431D2A393500958847 /* Sources */,
+				CED95A441D2A393500958847 /* Frameworks */,
+				CED95A451D2A393500958847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED95A491D2A393500958847 /* PBXTargetDependency */,
+			);
+			name = SimeAPPTests;
+			productName = SimeAPPTests;
+			productReference = CED95A471D2A393500958847 /* SimeAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CED95A511D2A393500958847 /* SimeAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED95A611D2A393500958847 /* Build configuration list for PBXNativeTarget "SimeAPPUITests" */;
+			buildPhases = (
+				CED95A4E1D2A393500958847 /* Sources */,
+				CED95A4F1D2A393500958847 /* Frameworks */,
+				CED95A501D2A393500958847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED95A541D2A393500958847 /* PBXTargetDependency */,
+			);
+			name = SimeAPPUITests;
+			productName = SimeAPPUITests;
+			productReference = CED95A521D2A393500958847 /* SimeAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED95A261D2A393500958847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LkSime;
+				TargetAttributes = {
+					CED95A2D1D2A393500958847 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CED95A461D2A393500958847 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CED95A2D1D2A393500958847;
+					};
+					CED95A511D2A393500958847 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CED95A2D1D2A393500958847;
+					};
+				};
+			};
+			buildConfigurationList = CED95A291D2A393500958847 /* Build configuration list for PBXProject "SimeAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED95A251D2A393500958847;
+			productRefGroup = CED95A2F1D2A393500958847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED95A2D1D2A393500958847 /* SimeAPP */,
+				CED95A461D2A393500958847 /* SimeAPPTests */,
+				CED95A511D2A393500958847 /* SimeAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED95A2C1D2A393500958847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED95A411D2A393500958847 /* LaunchScreen.storyboard in Resources */,
+				CED95A3E1D2A393500958847 /* Assets.xcassets in Resources */,
+				CED95A3C1D2A393500958847 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED95A451D2A393500958847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED95A501D2A393500958847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED95A2A1D2A393500958847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED95A391D2A393500958847 /* ViewController.m in Sources */,
+				CED95A361D2A393500958847 /* AppDelegate.m in Sources */,
+				CED95A331D2A393500958847 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED95A431D2A393500958847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED95A4C1D2A393500958847 /* SimeAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED95A4E1D2A393500958847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED95A571D2A393500958847 /* SimeAPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED95A491D2A393500958847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED95A2D1D2A393500958847 /* SimeAPP */;
+			targetProxy = CED95A481D2A393500958847 /* PBXContainerItemProxy */;
+		};
+		CED95A541D2A393500958847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED95A2D1D2A393500958847 /* SimeAPP */;
+			targetProxy = CED95A531D2A393500958847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED95A3A1D2A393500958847 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED95A3B1D2A393500958847 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED95A3F1D2A393500958847 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED95A401D2A393500958847 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED95A591D2A393500958847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CED95A5A1D2A393500958847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED95A5C1D2A393500958847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimeAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sime.SimeAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CED95A5D1D2A393500958847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimeAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sime.SimeAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CED95A5F1D2A393500958847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimeAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sime.SimeAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimeAPP.app/SimeAPP";
+			};
+			name = Debug;
+		};
+		CED95A601D2A393500958847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimeAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sime.SimeAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimeAPP.app/SimeAPP";
+			};
+			name = Release;
+		};
+		CED95A621D2A393500958847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimeAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sime.SimeAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimeAPP;
+			};
+			name = Debug;
+		};
+		CED95A631D2A393500958847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimeAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sime.SimeAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimeAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED95A291D2A393500958847 /* Build configuration list for PBXProject "SimeAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED95A591D2A393500958847 /* Debug */,
+				CED95A5A1D2A393500958847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED95A5B1D2A393500958847 /* Build configuration list for PBXNativeTarget "SimeAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED95A5C1D2A393500958847 /* Debug */,
+				CED95A5D1D2A393500958847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CED95A5E1D2A393500958847 /* Build configuration list for PBXNativeTarget "SimeAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED95A5F1D2A393500958847 /* Debug */,
+				CED95A601D2A393500958847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CED95A611D2A393500958847 /* Build configuration list for PBXNativeTarget "SimeAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED95A621D2A393500958847 /* Debug */,
+				CED95A631D2A393500958847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED95A261D2A393500958847 /* Project object */;
+}
