@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <JSPatch/JSPatch.h>
+#import "SMStartViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,8 +18,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+//    [JSPatch startWithAppKey:@"7dfbf4c4e28bfcf0"];
+//    [JSPatch testScriptInBundle];//热更新本地测试
+//    [JSPatch sync];
+    [self initStartView];
     return YES;
+}
+- (void)initStartView {
+    SMStartViewController * startVC = [SMStartViewController new];
+    _rootNavigation = [UINavigationController new];
+    _rootNavigation.navigationBarHidden = YES;
+    self.window.rootViewController = _rootNavigation;
+    [self.window makeKeyAndVisible];
+
+    [_rootNavigation pushViewController:startVC animated:YES];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

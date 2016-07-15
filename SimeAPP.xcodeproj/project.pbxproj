@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7428A91D2CD72A000BA877 /* SMEventKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7428A81D2CD72A000BA877 /* SMEventKitViewController.m */; };
+		CE7428AB1D2CE949000BA877 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7428AA1D2CE949000BA877 /* Reveal.framework */; };
+		CE7428B01D2CEA99000BA877 /* SMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7428AF1D2CEA99000BA877 /* SMBaseViewController.m */; };
+		CE7428B31D2CEAB0000BA877 /* SMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7428B21D2CEAB0000BA877 /* SMHomeViewController.m */; };
+		CE7428B61D2CEB4A000BA877 /* SMStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7428B51D2CEB4A000BA877 /* SMStartViewController.m */; };
+		CE7428B91D2DF528000BA877 /* SMMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7428B81D2DF528000BA877 /* SMMineViewController.m */; };
+		CEA186D21D34DFC00033A58C /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = CEA186D11D34DFC00033A58C /* main.js */; };
+		CEA18C2F1D2E41A10042637D /* RootNaviControllerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA18C2E1D2E41A10042637D /* RootNaviControllerUtil.m */; };
+		CEB844401D2B5300008DC710 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB8443F1D2B5300008DC710 /* libz.tbd */; };
+		CEB844421D2B5307008DC710 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB844411D2B5307008DC710 /* JavaScriptCore.framework */; };
+		CEB844451D2B55D2008DC710 /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB844441D2B55D2008DC710 /* JSPatch.framework */; };
 		CED95A331D2A393500958847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A321D2A393500958847 /* main.m */; };
 		CED95A361D2A393500958847 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A351D2A393500958847 /* AppDelegate.m */; };
-		CED95A391D2A393500958847 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A381D2A393500958847 /* ViewController.m */; };
 		CED95A3C1D2A393500958847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED95A3A1D2A393500958847 /* Main.storyboard */; };
 		CED95A3E1D2A393500958847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED95A3D1D2A393500958847 /* Assets.xcassets */; };
 		CED95A411D2A393500958847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED95A3F1D2A393500958847 /* LaunchScreen.storyboard */; };
 		CED95A4C1D2A393500958847 /* SimeAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A4B1D2A393500958847 /* SimeAPPTests.m */; };
 		CED95A571D2A393500958847 /* SimeAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A561D2A393500958847 /* SimeAPPUITests.m */; };
+		CED95A6C1D2A3B7A00958847 /* SMApiUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CED95A6B1D2A3B7A00958847 /* SMApiUrl.m */; };
+		E8DD46E9E08685589562471A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EA1C3A518DD0ECB533066F /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +47,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17EA1C3A518DD0ECB533066F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DBBFD7489B869474B61056 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		88CA7E3E24F9925C298E49AA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7428A71D2CD72A000BA877 /* SMEventKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMEventKitViewController.h; sourceTree = "<group>"; };
+		CE7428A81D2CD72A000BA877 /* SMEventKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMEventKitViewController.m; sourceTree = "<group>"; };
+		CE7428AA1D2CE949000BA877 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		CE7428AE1D2CEA99000BA877 /* SMBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMBaseViewController.h; sourceTree = "<group>"; };
+		CE7428AF1D2CEA99000BA877 /* SMBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMBaseViewController.m; sourceTree = "<group>"; };
+		CE7428B11D2CEAB0000BA877 /* SMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHomeViewController.h; sourceTree = "<group>"; };
+		CE7428B21D2CEAB0000BA877 /* SMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHomeViewController.m; sourceTree = "<group>"; };
+		CE7428B41D2CEB4A000BA877 /* SMStartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStartViewController.h; sourceTree = "<group>"; };
+		CE7428B51D2CEB4A000BA877 /* SMStartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStartViewController.m; sourceTree = "<group>"; };
+		CE7428B71D2DF528000BA877 /* SMMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMineViewController.h; sourceTree = "<group>"; };
+		CE7428B81D2DF528000BA877 /* SMMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMineViewController.m; sourceTree = "<group>"; };
+		CE7428C11D2E27CC000BA877 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CEA186D11D34DFC00033A58C /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		CEA18C2D1D2E41A10042637D /* RootNaviControllerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNaviControllerUtil.h; sourceTree = "<group>"; };
+		CEA18C2E1D2E41A10042637D /* RootNaviControllerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNaviControllerUtil.m; sourceTree = "<group>"; };
+		CEB8443F1D2B5300008DC710 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CEB844411D2B5307008DC710 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		CEB844441D2B55D2008DC710 /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
 		CED95A2E1D2A393500958847 /* SimeAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimeAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED95A321D2A393500958847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CED95A341D2A393500958847 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CED95A351D2A393500958847 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CED95A371D2A393500958847 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CED95A381D2A393500958847 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CED95A3B1D2A393500958847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED95A3D1D2A393500958847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED95A401D2A393500958847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +82,8 @@
 		CED95A521D2A393500958847 /* SimeAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimeAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED95A561D2A393500958847 /* SimeAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimeAPPUITests.m; sourceTree = "<group>"; };
 		CED95A581D2A393500958847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED95A6A1D2A3B7A00958847 /* SMApiUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMApiUrl.h; sourceTree = "<group>"; };
+		CED95A6B1D2A3B7A00958847 /* SMApiUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMApiUrl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB844451D2B55D2008DC710 /* JSPatch.framework in Frameworks */,
+				CEB844421D2B5307008DC710 /* JavaScriptCore.framework in Frameworks */,
+				CE7428AB1D2CE949000BA877 /* Reveal.framework in Frameworks */,
+				CEB844401D2B5300008DC710 /* libz.tbd in Frameworks */,
+				E8DD46E9E08685589562471A /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +116,124 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07669C7C4592AD66BF9BF77D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7428AA1D2CE949000BA877 /* Reveal.framework */,
+				CEB844441D2B55D2008DC710 /* JSPatch.framework */,
+				CEB844411D2B5307008DC710 /* JavaScriptCore.framework */,
+				CEB8443F1D2B5300008DC710 /* libz.tbd */,
+				17EA1C3A518DD0ECB533066F /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC99462528B4F2A791E5AB76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88CA7E3E24F9925C298E49AA /* Pods.debug.xcconfig */,
+				81DBBFD7489B869474B61056 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE7428AC1D2CEA30000BA877 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE7428BD1D2DF671000BA877 /* Controllers */,
+				CE7428BC1D2DF668000BA877 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE7428AD1D2CEA43000BA877 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				CE7428BA1D2DF647000BA877 /* Controllers */,
+				CE7428BB1D2DF654000BA877 /* Views */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		CE7428BA1D2DF647000BA877 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE7428A71D2CD72A000BA877 /* SMEventKitViewController.h */,
+				CE7428A81D2CD72A000BA877 /* SMEventKitViewController.m */,
+				CE7428B71D2DF528000BA877 /* SMMineViewController.h */,
+				CE7428B81D2DF528000BA877 /* SMMineViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE7428BB1D2DF654000BA877 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE7428BC1D2DF668000BA877 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE7428BD1D2DF671000BA877 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE7428B11D2CEAB0000BA877 /* SMHomeViewController.h */,
+				CE7428B21D2CEAB0000BA877 /* SMHomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CE7428BE1D2DF688000BA877 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CE7428C01D2DF6B6000BA877 /* Controllers */,
+				CE7428BF1D2DF6AE000BA877 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CE7428BF1D2DF6AE000BA877 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE7428C01D2DF6B6000BA877 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE7428AE1D2CEA99000BA877 /* SMBaseViewController.h */,
+				CE7428AF1D2CEA99000BA877 /* SMBaseViewController.m */,
+				CE7428B41D2CEB4A000BA877 /* SMStartViewController.h */,
+				CE7428B51D2CEB4A000BA877 /* SMStartViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEA18C2C1D2E41890042637D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CEA18C2D1D2E41A10042637D /* RootNaviControllerUtil.h */,
+				CEA18C2E1D2E41A10042637D /* RootNaviControllerUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		CED95A251D2A393500958847 = {
 			isa = PBXGroup;
 			children = (
+				07669C7C4592AD66BF9BF77D /* Frameworks */,
+				BC99462528B4F2A791E5AB76 /* Pods */,
+				CED95A2F1D2A393500958847 /* Products */,
 				CED95A301D2A393500958847 /* SimeAPP */,
 				CED95A4A1D2A393500958847 /* SimeAPPTests */,
 				CED95A551D2A393500958847 /* SimeAPPUITests */,
-				CED95A2F1D2A393500958847 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +250,14 @@
 		CED95A301D2A393500958847 /* SimeAPP */ = {
 			isa = PBXGroup;
 			children = (
+				CED95A641D2A3A4500958847 /* Api */,
+				CED95A651D2A3A4500958847 /* Library */,
+				CED95A661D2A3A4500958847 /* Model */,
+				CED95A671D2A3A4500958847 /* Resource */,
+				CED95A311D2A393500958847 /* Supporting Files */,
+				CED95A691D2A3A4500958847 /* UI */,
 				CED95A341D2A393500958847 /* AppDelegate.h */,
 				CED95A351D2A393500958847 /* AppDelegate.m */,
-				CED95A371D2A393500958847 /* ViewController.h */,
-				CED95A381D2A393500958847 /* ViewController.m */,
-				CED95A3A1D2A393500958847 /* Main.storyboard */,
-				CED95A3D1D2A393500958847 /* Assets.xcassets */,
-				CED95A3F1D2A393500958847 /* LaunchScreen.storyboard */,
-				CED95A421D2A393500958847 /* Info.plist */,
-				CED95A311D2A393500958847 /* Supporting Files */,
 			);
 			path = SimeAPP;
 			sourceTree = "<group>";
@@ -117,16 +265,21 @@
 		CED95A311D2A393500958847 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEA186D11D34DFC00033A58C /* main.js */,
+				CED95A421D2A393500958847 /* Info.plist */,
+				CED95A3F1D2A393500958847 /* LaunchScreen.storyboard */,
+				CED95A3A1D2A393500958847 /* Main.storyboard */,
+				CE7428C11D2E27CC000BA877 /* PrefixHeader.pch */,
 				CED95A321D2A393500958847 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		CED95A4A1D2A393500958847 /* SimeAPPTests */ = {
 			isa = PBXGroup;
 			children = (
-				CED95A4B1D2A393500958847 /* SimeAPPTests.m */,
 				CED95A4D1D2A393500958847 /* Info.plist */,
+				CED95A4B1D2A393500958847 /* SimeAPPTests.m */,
 			);
 			path = SimeAPPTests;
 			sourceTree = "<group>";
@@ -134,10 +287,52 @@
 		CED95A551D2A393500958847 /* SimeAPPUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CED95A561D2A393500958847 /* SimeAPPUITests.m */,
 				CED95A581D2A393500958847 /* Info.plist */,
+				CED95A561D2A393500958847 /* SimeAPPUITests.m */,
 			);
 			path = SimeAPPUITests;
+			sourceTree = "<group>";
+		};
+		CED95A641D2A3A4500958847 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				CED95A6A1D2A3B7A00958847 /* SMApiUrl.h */,
+				CED95A6B1D2A3B7A00958847 /* SMApiUrl.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		CED95A651D2A3A4500958847 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CEA18C2C1D2E41890042637D /* Utils */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		CED95A661D2A3A4500958847 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CED95A671D2A3A4500958847 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CED95A3D1D2A393500958847 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CED95A691D2A3A4500958847 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CE7428BE1D2DF688000BA877 /* Common */,
+				CE7428AC1D2CEA30000BA877 /* Home */,
+				CE7428AD1D2CEA43000BA877 /* Second */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +342,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED95A5B1D2A393500958847 /* Build configuration list for PBXNativeTarget "SimeAPP" */;
 			buildPhases = (
+				88CAC39CCF4240C87EC43E89 /* Check Pods Manifest.lock */,
 				CED95A2A1D2A393500958847 /* Sources */,
 				CED95A2B1D2A393500958847 /* Frameworks */,
 				CED95A2C1D2A393500958847 /* Resources */,
+				790D4FC814A41DDA95214200 /* Embed Pods Frameworks */,
+				4C23E6903BBC4736CEBF2FC8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +400,7 @@
 		CED95A261D2A393500958847 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SM;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = LkSime;
 				TargetAttributes = {
@@ -246,6 +445,7 @@
 				CED95A411D2A393500958847 /* LaunchScreen.storyboard in Resources */,
 				CED95A3E1D2A393500958847 /* Assets.xcassets in Resources */,
 				CED95A3C1D2A393500958847 /* Main.storyboard in Resources */,
+				CEA186D21D34DFC00033A58C /* main.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +465,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C23E6903BBC4736CEBF2FC8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		790D4FC814A41DDA95214200 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88CAC39CCF4240C87EC43E89 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CED95A2A1D2A393500958847 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED95A391D2A393500958847 /* ViewController.m in Sources */,
+				CE7428B91D2DF528000BA877 /* SMMineViewController.m in Sources */,
+				CEA18C2F1D2E41A10042637D /* RootNaviControllerUtil.m in Sources */,
+				CE7428A91D2CD72A000BA877 /* SMEventKitViewController.m in Sources */,
+				CE7428B01D2CEA99000BA877 /* SMBaseViewController.m in Sources */,
+				CE7428B31D2CEAB0000BA877 /* SMHomeViewController.m in Sources */,
 				CED95A361D2A393500958847 /* AppDelegate.m in Sources */,
+				CED95A6C1D2A3B7A00958847 /* SMApiUrl.m in Sources */,
 				CED95A331D2A393500958847 /* main.m in Sources */,
+				CE7428B61D2CEB4A000BA877 /* SMStartViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +568,7 @@
 				CED95A3B1D2A393500958847 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		CED95A3F1D2A393500958847 /* LaunchScreen.storyboard */ = {
@@ -322,6 +577,7 @@
 				CED95A401D2A393500958847 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,10 +667,24 @@
 		};
 		CED95A5C1D2A393500958847 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CA7E3E24F9925C298E49AA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SimeAPP/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SimeAPP/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "SimeAPP/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Mantle\"",
+					"-framework",
+					"\"Foundation\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sime.SimeAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,9 +692,16 @@
 		};
 		CED95A5D1D2A393500958847 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DBBFD7489B869474B61056 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SimeAPP/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SimeAPP/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "SimeAPP/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sime.SimeAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +773,7 @@
 				CED95A5D1D2A393500958847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CED95A5E1D2A393500958847 /* Build configuration list for PBXNativeTarget "SimeAPPTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +782,7 @@
 				CED95A601D2A393500958847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CED95A611D2A393500958847 /* Build configuration list for PBXNativeTarget "SimeAPPUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +791,7 @@
 				CED95A631D2A393500958847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

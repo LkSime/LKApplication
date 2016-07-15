@@ -1,0 +1,60 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ChameleonFramework (2.1.0):
+    - ChameleonFramework/Default (= 2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - IQKeyboardManager (4.0.4)
+  - Mantle (2.0.7):
+    - Mantle/extobjc (= 2.0.7)
+  - Mantle/extobjc (2.0.7)
+  - Masonry (1.0.1)
+  - MJRefresh (3.1.10)
+  - PDTSimpleCalendar (0.9.1)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - SlackTextViewController (1.9.3)
+  - SVProgressHUD (2.0.3)
+  - TextFieldEffects (1.2.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ChameleonFramework
+  - IQKeyboardManager
+  - Mantle
+  - Masonry
+  - MJRefresh
+  - PDTSimpleCalendar (~> 0.9.1)
+  - SDWebImage
+  - SlackTextViewController
+  - SVProgressHUD
+  - TextFieldEffects
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  IQKeyboardManager: 4a6f83b540283c2645aaeba2bd8dc0f09b5c77f8
+  Mantle: bc40bb061d8c2c6fb48d5083e04d928c3b7f73d9
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MJRefresh: bb72948c985914b0b5cecac573a2c69a8915fb02
+  PDTSimpleCalendar: d1c03387678422715dc021aa1a85d70f4d1014f2
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  SlackTextViewController: bd2a34c188d4f7dec93cf42388f38551263fac82
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  TextFieldEffects: bc4fd3bd557321bd61a0762f3f50965477a36f62
+
+COCOAPODS: 0.39.0
