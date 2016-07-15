@@ -33,7 +33,7 @@
     UIButton * calendarButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [calendarButton addTarget:self action:@selector(actionWithSelectDate)
           forControlEvents:UIControlEventTouchUpInside];
-    [calendarButton setTitle:@"添加提醒" forState:UIControlStateNormal];
+    [calendarButton setTitle:@"日期选择" forState:UIControlStateNormal];
     [calendarButton setBackgroundColor:FlatRed];
     [self.view addSubview:calendarButton];
     [calendarButton makeConstraints:^(MASConstraintMaker *make) {
