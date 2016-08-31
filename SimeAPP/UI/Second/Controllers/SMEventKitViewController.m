@@ -8,12 +8,22 @@
 
 #import "SMEventKitViewController.h"
 #import <EventKit/EventKit.h>
+#import "SMDatePicker.h"
 
-@interface SMEventKitViewController ()
+@interface SMEventKitViewController () {
+    
+    UILabel * _dateLabel;
+}
 
 @end
 
 @implementation SMEventKitViewController
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.tabBarController.tabBar.hidden = YES;
+    self.navigationController.navigationBarHidden = NO;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -41,6 +51,18 @@
         make.top.equalTo(eventButton.mas_bottom).offset(20);
         make.width.equalTo(@100);
         make.height.equalTo(@40);
+    }];
+    
+    _dateLabel = [UILabel new];
+    _dateLabel.textColor = FlatLime;
+    _dateLabel.backgroundColor = [UIColor colorWithContrastingBlackOrWhiteColorOn:FlatLime isFlat:YES];
+    _dateLabel.font = [UIFont systemFontOfSize:16.0f];
+    [self.view addSubview:_dateLabel];
+    [_dateLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(eventButton.mas_top).offset(-20);
+        make.centerX.equalTo(self.view);
+        make.width.equalTo(@100);
+        make.height.equalTo(@30);
     }];
 
 }
@@ -114,12 +136,23 @@
 }
 
 - (void)actionWithSelectDate {
-    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+    [dateFormatter setDateFormat:@"yyyy-MM"];
+    if (!_dateLabel.text) {
+        _dateLabel.text = [dateFormatter stringFromDate:[NSDate date]];
+    }
+    SMDatePicker * picker = [[SMDatePicker alloc] initWithSuperView:self.view];
+    picker.currentDate = [dateFormatter dateFromString:_dateLabel.text];
+    picker.selectDateBlock = ^(NSString * selectDate){
+        _dateLabel.text = selectDate;
+    };
+    [picker show];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation

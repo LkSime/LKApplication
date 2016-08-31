@@ -18,6 +18,8 @@
 // If you want to use masonry without all those pesky 'mas_' prefixes. Add #define MAS_SHORTHAND to your prefix.pch before importing Masonry
 #define MAS_SHORTHAND
 #import "Masonry.h"
+#import "OPFontMacro.h"
+#import "OPDeviceMacro.h"
 
 //A better version of NSLog
 #define SMLog(format, ...) do { \
@@ -27,5 +29,7 @@ __LINE__, __func__); \
 (NSLog)((format), ##__VA_ARGS__); \
 fprintf(stderr, "-------\n"); \
 } while (0)
+
+#define TipAlert(_S_, ...)     [[[UIAlertView alloc] initWithTitle:@"提示" message:[NSString stringWithFormat:(_S_), ##__VA_ARGS__] delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil] show]
 
 #endif /* PrefixHeader_pch */

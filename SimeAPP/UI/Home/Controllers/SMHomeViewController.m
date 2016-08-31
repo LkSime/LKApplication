@@ -46,7 +46,11 @@
         make.center.equalTo(self.view);
         make.width.height.equalTo(@160);
     }];
-    NSLog(@"viewDidLoad中打印");
+    
+    //FIXME: NSFileManager 操作
+    UIButton * fManageButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [fManageButton setTitle:@"NSFileManager" forState:UIControlStateNormal];
+    
 }
 
 //免重启程序打印Log

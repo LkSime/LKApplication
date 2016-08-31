@@ -1,0 +1,13 @@
+//
+//  DebugConfig.xcconfig
+//  SimeAPP
+//
+//  Created by LkSime on 16/8/15.
+//  Copyright © 2016年 LkSime. All rights reserved.
+//
+
+#include "CommonConfig.xcoconfig"
+
+#include "Pods/Target Support Files/Pods/Pods.debug.xcconfig"
+APP_DISPLAY_NAME = 测试服
+CONFIG_FLAG = DEBUG
